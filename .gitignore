@@ -1,2 +1,4 @@
 .DS_Store
 source.csv
+__pycache__
+result/*

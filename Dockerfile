@@ -1,8 +1,8 @@
 FROM python:3.10
 
-RUN pip install pandas
+RUN pip install pandas, openpyxl, pyproj
 
-COPY source.csv .
+COPY source.xlsx .
 
 COPY main.py .
 
